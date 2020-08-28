@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cwm-worker-ingress:
+  - apiVersion: v2
+    appVersion: b038fb2810051ed7de872acbc016360011ba94cc
+    created: "2020-08-28T07:29:57.623867794Z"
+    digest: d7d935cda7319222aae3c5a9b77bd586a14e55e54118b1ff21a14f591ce71b49
+    icon: https://go.cloudwm.com/images/logo.png
+    name: cwm-worker-ingress
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-ingress/cwm-worker-ingress-0.0.0-20200828T072957.tgz
+    version: 0.0.0-20200828T072957
+generated: "2020-08-28T07:29:57.623354083Z"
