@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cwm-worker-deployment-minio:
+  - apiVersion: v2
+    appVersion: eff973ac45de9a3d0f9f1fad71689e89b8ad03a9
+    created: "2020-08-29T07:54:05.318665744Z"
+    digest: 6d19821e42ad502fcd466be0297d2d30503a756dfda72803df35ab796ea05d72
+    icon: https://go.cloudwm.com/images/logo.png
+    name: cwm-worker-deployment-minio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-deployment-minio/cwm-worker-deployment-minio-0.0.0-20200829T075405.tgz
+    version: 0.0.0-20200829T075405
+generated: "2020-08-29T07:54:05.31792464Z"
