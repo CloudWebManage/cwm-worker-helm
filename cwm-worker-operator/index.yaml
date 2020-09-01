@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cwm-worker-operator:
+  - apiVersion: v2
+    appVersion: ff7f8cf3dd8aab72616234bd3ac88ba6b8b84aa1
+    created: "2020-09-01T10:46:04.211105167Z"
+    digest: 085a3335924bcc5eaf11e4abb6dca6d7e28a1324b0580adc5d529eb4c0281725
+    icon: https://go.cloudwm.com/images/logo.png
+    name: cwm-worker-operator
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-operator/cwm-worker-operator-0.0.0-20200901T104604.tgz
+    version: 0.0.0-20200901T104604
+generated: "2020-09-01T10:46:04.21057627Z"
