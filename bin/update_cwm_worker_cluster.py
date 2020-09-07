@@ -20,6 +20,7 @@ def get_latest_version(repo_index, chart_name):
 
 
 def main(commit_msg):
+    print("commit_msg={}".format(commit_msg))
     commit_msg = commit_msg.strip()
     update_repo = None
     if commit_msg == "automatic update of cwm-worker-ingress":
@@ -38,6 +39,8 @@ def main(commit_msg):
         subprocess.check_call(["git", "add", filename])
         subprocess.check_call(["git", "commit", "-m", "automatic update of {} latest-chart-version".format(update_repo)])
         subprocess.check_call(["git", "push", "origin", "master"])
+    else:
+        print("no commit_msg match")
 
 
 if __name__ == "__main__":
