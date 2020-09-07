@@ -15,6 +15,7 @@ jobs:
           venv/bin/python3 -m pip install --upgrade pip &&\
           venv/bin/python3 -m pip install --upgrade setuptools wheel &&\
           venv/bin/python3 -m pip install ruamel.yaml==0.16.10 &&\
+          COMMIT_MSG="$(git log -1 --pretty=format:"%s")" &&\
           echo "${CWM_WORKER_CLUSTER_DEPLOY_KEY}" > cwm_worker_cluster_deploy_key &&\
           chmod 400 cwm_worker_cluster_deploy_key &&\
           export GIT_SSH_COMMAND="ssh -i $(pwd)/cwm_worker_cluster_deploy_key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" &&\
@@ -22,5 +23,5 @@ jobs:
           git config --global user.name "cwm-worker-helm CI" &&\
           git config --global user.email "cwm-worker-helm-ci@localhost" &&\
           cd cwm-worker-cluster &&\
-          ../venv/bin/python3 ../bin/update_cwm_worker_cluster.py "$(git log -1 --pretty=format:"%s")"
+          ../venv/bin/python3 ../bin/update_cwm_worker_cluster.py "${COMMIT_MSG}"
         fi
