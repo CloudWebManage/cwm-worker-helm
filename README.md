@@ -71,3 +71,4 @@ helm repo index \
     --url "https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/${TARGET_DIR}/" \
     "${TARGET_DIR}"
 ```
+
