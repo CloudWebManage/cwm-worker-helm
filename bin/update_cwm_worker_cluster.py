@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import sys
 import datetime
 import subprocess
@@ -19,7 +20,7 @@ def get_latest_version(repo_index, chart_name):
     return latest_entry_version
 
 
-def main(commit_msg):
+def main(commit_msg, cwm_worker_helm_path):
     print("commit_msg={}".format(commit_msg))
     commit_msg = commit_msg.strip()
     update_repo = None
@@ -29,7 +30,7 @@ def main(commit_msg):
         update_repo = "cwm-worker-operator"
     if update_repo:
         print("Updating cwm-worker-cluster chart dependency of {}".format(update_repo))
-        with open("{}/index.yaml".format(update_repo)) as f:
+        with open(os.path.join(cwm_worker_helm_path, update_repo, "index.yaml")) as f:
             index = yaml.safe_load(f)
         latest_version = get_latest_version(index, update_repo)
         print("latest version: {}".format(latest_version))
