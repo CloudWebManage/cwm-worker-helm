@@ -19,7 +19,7 @@ helm repo add "${CHART_NAME}" "https://raw.githubusercontent.com/CloudWebManage/
 Deploy a version of the chart (replace VERSION and RELEASE_NAME)
 
 ```
-helm upgrade --install --version VERSION RELEASE_NAME ${CHART_NAME} 
+helm upgrade --install --version VERSION RELEASE_NAME "${CHART_NAME}/${CHART_NAME}" 
 ```
 
 ## Adding a chart version
