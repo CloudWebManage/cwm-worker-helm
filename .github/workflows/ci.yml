@@ -22,5 +22,5 @@ jobs:
           git config --global user.name "cwm-worker-helm CI" &&\
           git config --global user.email "cwm-worker-helm-ci@localhost" &&\
           cd cwm-worker-cluster &&\
-          venv/bin/python3 ../bin/update_cwm_worker_cluster.py "$(git log -1 --pretty=format:"%s")"
+          ../venv/bin/python3 ../bin/update_cwm_worker_cluster.py "$(git log -1 --pretty=format:"%s")"
         fi
