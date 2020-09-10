@@ -28,6 +28,8 @@ def main(commit_msg, cwm_worker_helm_path):
         update_repo = "cwm-worker-ingress"
     elif commit_msg == "automatic update of cwm-worker-operator":
         update_repo = "cwm-worker-operator"
+    elif commit_msg == "automatic update of cwm-worker-deployment-minio":
+        update_repo = "cwm-worker-deployment-minio"
     if update_repo:
         print("Updating cwm-worker-cluster chart dependency of {}".format(update_repo))
         with open(os.path.join(cwm_worker_helm_path, update_repo, "index.yaml")) as f:
