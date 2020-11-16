@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   cwm-worker-operator:
   - apiVersion: v2
+    appVersion: ff30d11913f26355ad497471f50a264b4d91debc
+    created: "2020-11-16T08:42:49.663384947Z"
+    digest: e37417f313fdf61711d74f865019b19a6a42a0d3b0cdf1cce477ab2d6bdf97dd
+    icon: https://go.cloudwm.com/images/logo.png
+    name: cwm-worker-operator
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-operator/cwm-worker-operator-0.0.0-20201116T084249.tgz
+    version: 0.0.0-20201116T084249
+  - apiVersion: v2
     appVersion: b4e268ffe847270a6134c7349be4138b1266d413
-    created: "2020-11-14T16:32:16.062963851Z"
+    created: "2020-11-16T08:42:49.662789943Z"
     digest: dc166ee3cdf5628596fdbdd23a99fb2f28aca2c7ebbd8e00f03498c23442a063
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -13,7 +23,7 @@ entries:
     version: 0.0.0-20201114T163215
   - apiVersion: v2
     appVersion: 1a2cd73f9d71a1cf6496e1ab233750ff130073c5
-    created: "2020-11-14T16:32:16.062332148Z"
+    created: "2020-11-16T08:42:49.66215914Z"
     digest: c9c916e8f7164c3b284fff607d4ca979096509adc3550900ccac596a61404b8d
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -23,7 +33,7 @@ entries:
     version: 0.0.0-20201114T161252
   - apiVersion: v2
     appVersion: c740b2538e851ace34224c3d6d9b093f89ed1a26
-    created: "2020-11-14T16:32:16.061712545Z"
+    created: "2020-11-16T08:42:49.661311935Z"
     digest: fa0acd9d113f132594b2cd4357e0813183358955a0e5df3cb3c26387f4d3fe38
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -33,7 +43,7 @@ entries:
     version: 0.0.0-20201114T155523
   - apiVersion: v2
     appVersion: c03c3cbdd0f7654d239f21d9756c5e4c6120619f
-    created: "2020-11-14T16:32:16.061098243Z"
+    created: "2020-11-16T08:42:49.660655931Z"
     digest: a4fe7b8bed26d45119bc7726f6ea1d35cce44bbf979374e6f4f5813ac1d3d01d
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -43,7 +53,7 @@ entries:
     version: 0.0.0-20201114T143941
   - apiVersion: v2
     appVersion: 699aa1992d0d5328a89b4e99efc38e52b87a89f5
-    created: "2020-11-14T16:32:16.06045274Z"
+    created: "2020-11-16T08:42:49.659925027Z"
     digest: 9b82b8b507e1abc3f201a45ea30ffe7c3351cdbbd4837c6af48dad53a7e71632
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -53,7 +63,7 @@ entries:
     version: 0.0.0-20201114T095737
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.059859838Z"
+    created: "2020-11-16T08:42:49.659451924Z"
     digest: 33c911d5a9b245911778bf490a10d6c80e50dfe850a8ba9512d2163c1d2913ae
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -63,7 +73,7 @@ entries:
     version: 0.0.0-20201109T155211
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.059268435Z"
+    created: "2020-11-16T08:42:49.658921021Z"
     digest: 98e82f0fd45b6e75cdd2052fcc14562dcaf3c347219e252f5a3b9b3d91f63fd1
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -73,7 +83,7 @@ entries:
     version: 0.0.0-20201108T090511
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.058686533Z"
+    created: "2020-11-16T08:42:49.658424218Z"
     digest: 0c75159c360c82da926574a2c9db4a52e1406a356abd705c5d408955b22e6b79
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -83,7 +93,7 @@ entries:
     version: 0.0.0-20201107T095945
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.05801743Z"
+    created: "2020-11-16T08:42:49.657938915Z"
     digest: f9f3e268ed547f4b8fc89ea40cf02203056a5fff45b6d60796d5f0cacd204ac9
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -93,7 +103,7 @@ entries:
     version: 0.0.0-20201106T150737
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.057024526Z"
+    created: "2020-11-16T08:42:49.657461012Z"
     digest: 5b8b6621d595edbe3e60ebbee9f0a303dfa02623d97b31c00fcda23d81493d09
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -103,7 +113,7 @@ entries:
     version: 0.0.0-20201027T222320
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.056362524Z"
+    created: "2020-11-16T08:42:49.656859709Z"
     digest: 2d34dee63122285a3631c8558aac221c1147c5c914987395664d905f2be67c78
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -113,7 +123,7 @@ entries:
     version: 0.0.0-20201027T220837
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.055204619Z"
+    created: "2020-11-16T08:42:49.656423806Z"
     digest: eb02b247bf3e5017304c62bb8d412bb5b00d7537aed492310363940acd5277c3
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -123,7 +133,7 @@ entries:
     version: 0.0.0-20201027T184011
   - apiVersion: v2
     appVersion: latest
-    created: "2020-11-14T16:32:16.054215915Z"
+    created: "2020-11-16T08:42:49.655992804Z"
     digest: d5724c5ab4d7f7fd445cdf58397aef47d234717487e52ae97e2caa705ccd4569
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -133,7 +143,7 @@ entries:
     version: 0.0.0-20201027T094159
   - apiVersion: v2
     appVersion: c0d1b14e77a25f9397a5b3baecf309a6ed5fb7e5
-    created: "2020-11-14T16:32:16.05308521Z"
+    created: "2020-11-16T08:42:49.655555401Z"
     digest: e82d948581fce4495c663b54399f69ca4446f9a39eae8f1e0e59e8f0ca893ab8
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -143,7 +153,7 @@ entries:
     version: 0.0.0-20201014T134549
   - apiVersion: v2
     appVersion: 4ab3ea6e0de4b3294e7d47b89e36c3cfc1ee4a15
-    created: "2020-11-14T16:32:16.051713605Z"
+    created: "2020-11-16T08:42:49.655070199Z"
     digest: b9128fd54ba163b63f67c4f9db9b9cac79d7595c988fb0d188a021f7ab1dc0ec
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -153,7 +163,7 @@ entries:
     version: 0.0.0-20201012T080416
   - apiVersion: v2
     appVersion: 5318b032115d3dd065c4ed220f0658589c625e78
-    created: "2020-11-14T16:32:16.0506939Z"
+    created: "2020-11-16T08:42:49.654537795Z"
     digest: bbae9cb0f1982f94c172d55740d1de13a6b359eccfe5a4d6db1b10ee1a6167e0
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -163,7 +173,7 @@ entries:
     version: 0.0.0-20201012T072954
   - apiVersion: v2
     appVersion: a4dfd5d1b062a631a8dffcb29fa6090b003c5c20
-    created: "2020-11-14T16:32:16.050153598Z"
+    created: "2020-11-16T08:42:49.653938692Z"
     digest: 269261ca827c8a3b4b5fba215c72169956a2c9cd7afc574d870e0c5e95abd8d8
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -173,7 +183,7 @@ entries:
     version: 0.0.0-20201012T070436
   - apiVersion: v2
     appVersion: b4063a5a185073eebc287cdfa204b57b625fcaca
-    created: "2020-11-14T16:32:16.049679096Z"
+    created: "2020-11-16T08:42:49.653022887Z"
     digest: 43e952eeed6300ee22b479428fc4d95b1c517286be66fcd95887bb27d1686c5c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -183,7 +193,7 @@ entries:
     version: 0.0.0-20201011T133004
   - apiVersion: v2
     appVersion: 8d07b9f0ff623fe43c3104e3fba2aceaeaff6c24
-    created: "2020-11-14T16:32:16.049204294Z"
+    created: "2020-11-16T08:42:49.652126682Z"
     digest: 5e938d98ceb066e6ee32746e5c6e22d8d534a3fbd010155f5494cc40bb2b430e
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -193,7 +203,7 @@ entries:
     version: 0.0.0-20201011T132809
   - apiVersion: v2
     appVersion: c39aa6e894686457e7144d44dd44e8ed887328cc
-    created: "2020-11-14T16:32:16.048799393Z"
+    created: "2020-11-16T08:42:49.651258576Z"
     digest: 1f893fa72aec06d2767435091dc2df890e67e98e340487fd26b1d232dc84c20c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -203,7 +213,7 @@ entries:
     version: 0.0.0-20200924T143136
   - apiVersion: v2
     appVersion: d36f2a5e3d5df5c032e1cb3734bb75681868b197
-    created: "2020-11-14T16:32:16.048333991Z"
+    created: "2020-11-16T08:42:49.650778374Z"
     digest: bd2f0f55b3f20418622105d99bb272873a15ceaf1d09555f071cb09aacd86561
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -213,7 +223,7 @@ entries:
     version: 0.0.0-20200921T150158
   - apiVersion: v2
     appVersion: e98edc5faa461d4368b288c63115f688f2202e04
-    created: "2020-11-14T16:32:16.047867289Z"
+    created: "2020-11-16T08:42:49.650268671Z"
     digest: 1092b74e18da875b1803778e98dec8c16f48dc7d874d29d102c050e233e82929
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -223,7 +233,7 @@ entries:
     version: 0.0.0-20200920T183525
   - apiVersion: v2
     appVersion: 340cc12199dd939c3f3b7fde5e4ee3cfc60b3cdd
-    created: "2020-11-14T16:32:16.047374887Z"
+    created: "2020-11-16T08:42:49.648739762Z"
     digest: 2c08c7bace468300ab3a33a377395e309364778b1f38a9a1cd6566a0b2588ac6
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -233,7 +243,7 @@ entries:
     version: 0.0.0-20200920T181909
   - apiVersion: v2
     appVersion: 5bb9f470ef9abf01dedf0ddcb5d2e7a9dc30a1c0
-    created: "2020-11-14T16:32:16.046892385Z"
+    created: "2020-11-16T08:42:49.648116458Z"
     digest: f73408dffd2a27f98f177394ba82445983009f2280d3aa756bef1183a3f03e7b
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -243,7 +253,7 @@ entries:
     version: 0.0.0-20200920T181750
   - apiVersion: v2
     appVersion: 81a3f4836bd2399afbfd2474f02a2e6fd88bbb6a
-    created: "2020-11-14T16:32:16.046464683Z"
+    created: "2020-11-16T08:42:49.647633755Z"
     digest: 9e64cdc4e9446a223824430dc30deb2a4bc2ac0c7c1a56c17d795d8b059d0b06
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -253,7 +263,7 @@ entries:
     version: 0.0.0-20200920T145619
   - apiVersion: v2
     appVersion: 0b3e5b244c86b03b5bb1b1d23db4473917e6609d
-    created: "2020-11-14T16:32:16.046073481Z"
+    created: "2020-11-16T08:42:49.647162653Z"
     digest: e8e99ed66d7d8e3510aadb4b0ae6bdab1e7204e08cba75cb99d9745a06b0a022
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -263,7 +273,7 @@ entries:
     version: 0.0.0-20200920T092144
   - apiVersion: v2
     appVersion: 279ea9b9ca633abca9d5e7a46d3cfacd7e4c57fa
-    created: "2020-11-14T16:32:16.04562968Z"
+    created: "2020-11-16T08:42:49.64661725Z"
     digest: 08d87e0e2619c3ae6c2e8636ba5ca325ab0f17382a0004e342af78b1d771b74c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -273,7 +283,7 @@ entries:
     version: 0.0.0-20200919T211629
   - apiVersion: v2
     appVersion: 1ce0e35150990b40f81b5e2669a59aba04fd0681
-    created: "2020-11-14T16:32:16.045127478Z"
+    created: "2020-11-16T08:42:49.645318442Z"
     digest: 7b6ce9708f6900953e0399f2f30c9eed872871900243866801fd13a704e2c38d
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -283,7 +293,7 @@ entries:
     version: 0.0.0-20200919T210048
   - apiVersion: v2
     appVersion: 19b5b4a6b883635bee5d73e1b780ee946056124c
-    created: "2020-11-14T16:32:16.044643276Z"
+    created: "2020-11-16T08:42:49.644600538Z"
     digest: 02e1f7d4c1c182ae590ec44c2d037e891c2f4285246f96dbd7959e4c0b6f28c9
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -293,7 +303,7 @@ entries:
     version: 0.0.0-20200919T202839
   - apiVersion: v2
     appVersion: f8380923f1b70b9c8f1fc75e5ef4fe867eac87c8
-    created: "2020-11-14T16:32:16.044191474Z"
+    created: "2020-11-16T08:42:49.643829833Z"
     digest: 6dc5bd0c07b829cd94ced7815a2bd1f0c2064be1a04c919b4607c799524415e8
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -303,7 +313,7 @@ entries:
     version: 0.0.0-20200919T184405
   - apiVersion: v2
     appVersion: 4e50763e2d20a918bf132c020f772dc7a2f3110c
-    created: "2020-11-14T16:32:16.043839572Z"
+    created: "2020-11-16T08:42:49.64317453Z"
     digest: 11b2b942f1a739fc40fa7eb0dcde6aeb45b4d54fa2ed0588955f6c00b3c94b17
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -313,7 +323,7 @@ entries:
     version: 0.0.0-20200919T182151
   - apiVersion: v2
     appVersion: 4e30b9b5e32c6f9e2bbb2ca383f46a4879c535fc
-    created: "2020-11-14T16:32:16.043489071Z"
+    created: "2020-11-16T08:42:49.642622926Z"
     digest: 065ff7f67127ae0796452a68ea07b002f1ba72ef0cdbc4e51f64dbbf0229e723
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -323,7 +333,7 @@ entries:
     version: 0.0.0-20200919T164452
   - apiVersion: v2
     appVersion: f7e1114b40f6619eb7359a044504d842a19801c7
-    created: "2020-11-14T16:32:16.04315267Z"
+    created: "2020-11-16T08:42:49.640309013Z"
     digest: 3cf4423dee1b3d6c32e56f359e7f431cadb2d9d304ff8e334bc17224343f43eb
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -333,7 +343,7 @@ entries:
     version: 0.0.0-20200915T195835
   - apiVersion: v2
     appVersion: 190ff6b1c1b1a89977fa0f1b63d9dccf7012d0bf
-    created: "2020-11-14T16:32:16.042758268Z"
+    created: "2020-11-16T08:42:49.639624709Z"
     digest: 8159141e4ef1601a8a5c9c84d74a0e40ed8e9a3b6e4018854b212a4d7cdafed2
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -343,7 +353,7 @@ entries:
     version: 0.0.0-20200912T081119
   - apiVersion: v2
     appVersion: 75c8d86cccabc4edb64bfad19fc48588710ea891
-    created: "2020-11-14T16:32:16.041961565Z"
+    created: "2020-11-16T08:42:49.639062706Z"
     digest: 5ccf7671da256dc1692d36acdc07a32de0f5ef7241b11c204e330fec42daa31a
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -353,7 +363,7 @@ entries:
     version: 0.0.0-20200912T080138
   - apiVersion: v2
     appVersion: 1ec0fa26ff2d0a44d064d351d93fba9df1a690a8
-    created: "2020-11-14T16:32:16.041386662Z"
+    created: "2020-11-16T08:42:49.637691798Z"
     digest: 5df8eee9fda44f85ba03256a21a449d68f98971812606d7b0987bced209498ea
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -363,7 +373,7 @@ entries:
     version: 0.0.0-20200912T075958
   - apiVersion: v2
     appVersion: a1667ec9676b34c6878e66766fc837a792b3a4cc
-    created: "2020-11-14T16:32:16.04077996Z"
+    created: "2020-11-16T08:42:49.636896293Z"
     digest: 6e7f6eb2e516b00ecb80c22db48d4f2e3d2705f2dc66d548516af7d17c826c02
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -373,7 +383,7 @@ entries:
     version: 0.0.0-20200912T073549
   - apiVersion: v2
     appVersion: f49cf85c130a18b19cc084b0ade6bd344237d137
-    created: "2020-11-14T16:32:16.038928852Z"
+    created: "2020-11-16T08:42:49.636431791Z"
     digest: 45505dc58c6e700ff4796ef2d567b08d0ac3e8c5ec217b95f709726d0f25774b
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -383,7 +393,7 @@ entries:
     version: 0.0.0-20200912T073351
   - apiVersion: v2
     appVersion: d38c2fb4bcdc5f69ed11420f182a42c5e4e4655e
-    created: "2020-11-14T16:32:16.03844995Z"
+    created: "2020-11-16T08:42:49.635199083Z"
     digest: e48218ef0c29b95f32ed02f9f0add0558686be10d825fc87fa6048115798cc5d
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -393,7 +403,7 @@ entries:
     version: 0.0.0-20200911T212923
   - apiVersion: v2
     appVersion: 72bfebc14e75061f653d86e21159a1d681e7ca1c
-    created: "2020-11-14T16:32:16.038090849Z"
+    created: "2020-11-16T08:42:49.633675375Z"
     digest: 704ba778dc421b2f8f7be2a564d760d6265a5700176093b5ddca6f4c40837c49
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -403,7 +413,7 @@ entries:
     version: 0.0.0-20200911T212713
   - apiVersion: v2
     appVersion: 5e655bec5a2f0f7d0007e95020c351d4302209f1
-    created: "2020-11-14T16:32:16.037724647Z"
+    created: "2020-11-16T08:42:49.63288587Z"
     digest: 9ee3a86daa62ce2c4888340548614ad55154669ee7a581b69ef5fd4101542e1f
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -413,7 +423,7 @@ entries:
     version: 0.0.0-20200911T195443
   - apiVersion: v2
     appVersion: 26e012c40491787ed2b43f1164458c0e1b4bf881
-    created: "2020-11-14T16:32:16.037358246Z"
+    created: "2020-11-16T08:42:49.631652363Z"
     digest: 2fad432769527397848e4041339e0c7cff9c3e01015b77dc2c8bc9c515b00dc6
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -423,7 +433,7 @@ entries:
     version: 0.0.0-20200911T193015
   - apiVersion: v2
     appVersion: 56491052bff0ed7db089bc6176ae24d4bfe86610
-    created: "2020-11-14T16:32:16.036935044Z"
+    created: "2020-11-16T08:42:49.630675657Z"
     digest: 719d373fe243be2dedc62e0d3d20423d1899834ce0bc562f44fd9249aef15315
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -433,7 +443,7 @@ entries:
     version: 0.0.0-20200911T190451
   - apiVersion: v2
     appVersion: 1e8b753c93d7f619367be26d76c9683facc9429a
-    created: "2020-11-14T16:32:16.036488242Z"
+    created: "2020-11-16T08:42:49.629819852Z"
     digest: 3b87c70d26cff0eb2793a7872cdce0c430bdea46e486575b0ef3a525dc3c5b5c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -443,7 +453,7 @@ entries:
     version: 0.0.0-20200911T154526
   - apiVersion: v2
     appVersion: 06aadb86c99f20e24127fb740ee5aed6f9694fad
-    created: "2020-11-14T16:32:16.03602834Z"
+    created: "2020-11-16T08:42:49.629159749Z"
     digest: 1bf6b33f978a8c9b0dcf846812055086e935ae6d107f7dfe37b3a53950cadbb1
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -453,7 +463,7 @@ entries:
     version: 0.0.0-20200911T144941
   - apiVersion: v2
     appVersion: 8f63276b96ecf5a5235ae3f82aed08c2f8a5c9c8
-    created: "2020-11-14T16:32:16.035466838Z"
+    created: "2020-11-16T08:42:49.628565945Z"
     digest: e66d88b661a1fbd7516ec9c64bced19a0ff3507805916b5ff9184ad15fbac98a
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -463,7 +473,7 @@ entries:
     version: 0.0.0-20200911T144734
   - apiVersion: v2
     appVersion: 271aa150159ce56fb9fd46f125184c52d07b2eef
-    created: "2020-11-14T16:32:16.034977036Z"
+    created: "2020-11-16T08:42:49.628022542Z"
     digest: 9fc81ee120ff7bfda1f0d71db706c2a8e5305abba89f77236eb52d14e4f64079
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -473,7 +483,7 @@ entries:
     version: 0.0.0-20200911T131502
   - apiVersion: v2
     appVersion: a68aa053956050b93dbb4eb935107b87d72722ac
-    created: "2020-11-14T16:32:16.034508534Z"
+    created: "2020-11-16T08:42:49.627597639Z"
     digest: bafe3ab619f9d7b1df175cbf387fc2cc00d1d3d6426aff1daa87f6bed82d02f3
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -483,7 +493,7 @@ entries:
     version: 0.0.0-20200911T081333
   - apiVersion: v2
     appVersion: 3e9ecbfaefb9c2e012dfebdaa83f859fd4a0b0a0
-    created: "2020-11-14T16:32:16.034177033Z"
+    created: "2020-11-16T08:42:49.627031736Z"
     digest: 01b8557f8de172f8751abcc27f401c6923278144b371c590d902e30efb38f15a
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -493,7 +503,7 @@ entries:
     version: 0.0.0-20200911T080255
   - apiVersion: v2
     appVersion: bc1a7935242d27a185f3658af08d1bd26679f45b
-    created: "2020-11-14T16:32:16.033843831Z"
+    created: "2020-11-16T08:42:49.626579734Z"
     digest: 6befcc4013c552d3a0a9358708bce9c720967f1d7d296c83a098258c31d263da
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -503,7 +513,7 @@ entries:
     version: 0.0.0-20200910T095859
   - apiVersion: v2
     appVersion: f3fe6dbf695b54cb266b5da0ba918128b5f609ad
-    created: "2020-11-14T16:32:16.03353703Z"
+    created: "2020-11-16T08:42:49.626212131Z"
     digest: 68c8391f2d12dd4a68b470a7df56d0d354c46de342d33775ecb8d80621f93cd9
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -513,7 +523,7 @@ entries:
     version: 0.0.0-20200910T094728
   - apiVersion: v2
     appVersion: e5657a4ff0520318286c55c7f2e75d8474881198
-    created: "2020-11-14T16:32:16.033231229Z"
+    created: "2020-11-16T08:42:49.62588073Z"
     digest: d5c76078ed20fd071c5a0ce9f97e8e4eac27bd05e31d12b7ff5dfa0df30ae79c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -523,7 +533,7 @@ entries:
     version: 0.0.0-20200910T093608
   - apiVersion: v2
     appVersion: 182eea3c6751075346653c1e841b053158b5deb4
-    created: "2020-11-14T16:32:16.032894928Z"
+    created: "2020-11-16T08:42:49.625529427Z"
     digest: 798aaf6e555714a09160fce82924bf4b05e382dee1ae9a7f55cf138da79eb7fb
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -533,7 +543,7 @@ entries:
     version: 0.0.0-20200910T084747
   - apiVersion: v2
     appVersion: 77eaefa86437566c5bdc07ebcb2901685ff30705
-    created: "2020-11-14T16:32:16.032577426Z"
+    created: "2020-11-16T08:42:49.625089725Z"
     digest: 307c3c926e7ff9b73e91820a54ec53806fec956dccbd3a36100b3b813b5bf5f1
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -543,7 +553,7 @@ entries:
     version: 0.0.0-20200908T062320
   - apiVersion: v2
     appVersion: ff7f8cf3dd8aab72616234bd3ac88ba6b8b84aa1
-    created: "2020-11-14T16:32:16.032216625Z"
+    created: "2020-11-16T08:42:49.624417921Z"
     digest: 085a3335924bcc5eaf11e4abb6dca6d7e28a1324b0580adc5d529eb4c0281725
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-operator
@@ -551,4 +561,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-operator/cwm-worker-operator-0.0.0-20200901T104604.tgz
     version: 0.0.0-20200901T104604
-generated: "2020-11-14T16:32:16.031663623Z"
+generated: "2020-11-16T08:42:49.623621916Z"
