@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   cwm-worker-deployment-minio:
   - apiVersion: v2
+    appVersion: 119a838ca390114fee209fc49025538a8eca6fa8
+    created: "2021-03-07T16:12:22.730949784Z"
+    digest: ef9f6428fe3f14603808e9b0fef7dbb350b1063374c3a6fb628cdf81b50ecd4e
+    icon: https://go.cloudwm.com/images/logo.png
+    name: cwm-worker-deployment-minio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-deployment-minio/cwm-worker-deployment-minio-0.0.0-20210307T161222.tgz
+    version: 0.0.0-20210307T161222
+  - apiVersion: v2
     appVersion: 6842468765d14e2f7a85959d6b59a486c0373d45
-    created: "2021-03-07T15:53:21.824293466Z"
+    created: "2021-03-07T16:12:22.729741166Z"
     digest: 62b0335afa59ab5f1cf15d79aa105ce560ca1539f6ff20377c160511159187cb
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -13,7 +23,7 @@ entries:
     version: 0.0.0-20210307T155321
   - apiVersion: v2
     appVersion: 39d10b44cee5419f18fe1b5d538994cc9622de3f
-    created: "2021-03-07T15:53:21.823129463Z"
+    created: "2021-03-07T16:12:22.728501848Z"
     digest: 59ac790d4b7b19a868ffc8aa3bccae1e3b5c9dcc43aee1e47514cc45cd631bdc
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -23,7 +33,7 @@ entries:
     version: 0.0.0-20210303T082628
   - apiVersion: v2
     appVersion: d402744737a0533bffcda241f4eebff3bf5abc66
-    created: "2021-03-07T15:53:21.82201596Z"
+    created: "2021-03-07T16:12:22.726476718Z"
     digest: 58dcaed79f209e3be48a61acd85c292b539a971e0831195abd9b4a08b2354ff0
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -33,7 +43,7 @@ entries:
     version: 0.0.0-20210303T063541
   - apiVersion: v2
     appVersion: 9b6de45a29f7b755d24bef920112dc58a40086bb
-    created: "2021-03-07T15:53:21.820905456Z"
+    created: "2021-03-07T16:12:22.724457688Z"
     digest: 2a913006e1a835719e9c184e0b88562ad38790d0098c66e2d89dd0d18d274c6b
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -43,7 +53,7 @@ entries:
     version: 0.0.0-20210303T055106
   - apiVersion: v2
     appVersion: 05a929fac574e77392f90618b3da3618452ba025
-    created: "2021-03-07T15:53:21.819774553Z"
+    created: "2021-03-07T16:12:22.72326307Z"
     digest: 6a57b209916bd9b96c7c06cb95a059e9c8514a2d898347148c36c9a936e33047
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -53,7 +63,7 @@ entries:
     version: 0.0.0-20210302T132715
   - apiVersion: v2
     appVersion: 2f3eca1ef4856a9f0f24e1ee0a4e5f1730604eb0
-    created: "2021-03-07T15:53:21.81854605Z"
+    created: "2021-03-07T16:12:22.722002752Z"
     digest: 0717de33ebd06d2b5b3e9268479bcdeffd0c6a982ff6aac6edb0b7e96650979c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -63,7 +73,7 @@ entries:
     version: 0.0.0-20210224T183547
   - apiVersion: v2
     appVersion: e9c5612a839ab0e6abc9b2fdc906835a04401501
-    created: "2021-03-07T15:53:21.815776442Z"
+    created: "2021-03-07T16:12:22.720744033Z"
     digest: 590685a1dbb151426d2c17cb2022e1caf54881d992d792f8a6f5e580be5817f4
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -73,7 +83,7 @@ entries:
     version: 0.0.0-20210222T052020
   - apiVersion: v2
     appVersion: abae5069e5c6c1eab8dd7a10beadcd977c915e99
-    created: "2021-03-07T15:53:21.814708538Z"
+    created: "2021-03-07T16:12:22.719431914Z"
     digest: 910c3dd3d3dca2a94181e630184a04d105c9497f6923ed0f01c3829b3105d815
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -83,7 +93,7 @@ entries:
     version: 0.0.0-20210221T123821
   - apiVersion: v2
     appVersion: 8575505df739d68de6bffca838dc6176efeaf339
-    created: "2021-03-07T15:53:21.813665735Z"
+    created: "2021-03-07T16:12:22.718221796Z"
     digest: d1a6756662b829795726e7f5241308c110808adefd707cad0a6930963ed9bfed
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -93,7 +103,7 @@ entries:
     version: 0.0.0-20210209T131610
   - apiVersion: v2
     appVersion: 8d9c30703b674b399c9f0f7c2cdc02f79deee9ea
-    created: "2021-03-07T15:53:21.812589732Z"
+    created: "2021-03-07T16:12:22.717024578Z"
     digest: f1e7db2e94d067cb85fd4e7aafad9ab79e24143efb46963abd54f3e6900dbe6e
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -103,7 +113,7 @@ entries:
     version: 0.0.0-20210207T095826
   - apiVersion: v2
     appVersion: 758ae7a424d62b8c922be6d32ac84848571a2517
-    created: "2021-03-07T15:53:21.81168593Z"
+    created: "2021-03-07T16:12:22.716041664Z"
     digest: 6cf4749c6d68499d3b2768c7ca0922e97740a8f71627455a41e0f8bf4eaac108
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -113,7 +123,7 @@ entries:
     version: 0.0.0-20210202T144928
   - apiVersion: v2
     appVersion: b9459e5385f6e15e9bfebef3c81592fae215be56
-    created: "2021-03-07T15:53:21.810759427Z"
+    created: "2021-03-07T16:12:22.714818245Z"
     digest: f7c0b217057b664ef89bb183ecf7cfa563fd6cc0e81d444418e6d01dc96cdb85
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -123,7 +133,7 @@ entries:
     version: 0.0.0-20210113T154649
   - apiVersion: v2
     appVersion: 9832a31334ffac0a50c62b3b702fede4e6f26e83
-    created: "2021-03-07T15:53:21.809854724Z"
+    created: "2021-03-07T16:12:22.713864531Z"
     digest: 34a3000f3e75580645d669757df3ccb76107f52a768c7e34ba2abaadbf2aba34
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -133,7 +143,7 @@ entries:
     version: 0.0.0-20210113T110032
   - apiVersion: v2
     appVersion: 2b3fb7233aed83b1900fb502a279fa2ba4f98a04
-    created: "2021-03-07T15:53:21.808950822Z"
+    created: "2021-03-07T16:12:22.712848416Z"
     digest: 8a900f8ae30e44d3cf8c99200bf887a55378352291353d021958937f08f06097
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -143,7 +153,7 @@ entries:
     version: 0.0.0-20210113T092254
   - apiVersion: v2
     appVersion: b0e07a9a8676a5b95dfe3976c9d4ca38e31a0541
-    created: "2021-03-07T15:53:21.808051319Z"
+    created: "2021-03-07T16:12:22.711265793Z"
     digest: 83c604eb7dd0db177a30c56a1bf4e6a85e28033f77c2e1c086dee10199eb1452
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -153,7 +163,7 @@ entries:
     version: 0.0.0-20210113T080321
   - apiVersion: v2
     appVersion: 316166bce1a6c2837e64769eda58811a5fa34ab9
-    created: "2021-03-07T15:53:21.807122116Z"
+    created: "2021-03-07T16:12:22.709822372Z"
     digest: f9a20d7fa6f149bc7ee00135ef8184c5ce7a9c9913a15416995bc6ebd2b44455
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -163,7 +173,7 @@ entries:
     version: 0.0.0-20210111T173815
   - apiVersion: v2
     appVersion: 9624eca6ec0da39ac290b2a7ea76cb2359a659cc
-    created: "2021-03-07T15:53:21.806212314Z"
+    created: "2021-03-07T16:12:22.708633254Z"
     digest: 1c66b192d2c69f95fe1fe38c14176ae38516e9b5ee4f5b83a89ad94383e9d03c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -173,7 +183,7 @@ entries:
     version: 0.0.0-20210107T094330
   - apiVersion: v2
     appVersion: 5a63455d9ef6b2d3ffcf946fe7de13e0b01a84d2
-    created: "2021-03-07T15:53:21.80483431Z"
+    created: "2021-03-07T16:12:22.707755541Z"
     digest: 36bf903eaf04ad3b22d155d81c96e1c09284dc003ae1ac3747154cc49f97e51a
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -183,7 +193,7 @@ entries:
     version: 0.0.0-20201129T095640
   - apiVersion: v2
     appVersion: e8ea5f6c9f6fe63ceb6581e3359104dad59a1393
-    created: "2021-03-07T15:53:21.802961704Z"
+    created: "2021-03-07T16:12:22.706248419Z"
     digest: 4476627e7dbd6f0b768b99b5d4f3351b84f7764ab4f9ef61ac9cec8a83751a5d
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -193,7 +203,7 @@ entries:
     version: 0.0.0-20201116T083151
   - apiVersion: v2
     appVersion: 56f1039a8a32f023b5b8592ca78314bc3aff1b83
-    created: "2021-03-07T15:53:21.802134202Z"
+    created: "2021-03-07T16:12:22.705356805Z"
     digest: 1ba01bb0f0e4b903c41443a3fc1fced537b0b91095b9f1cfc54b790fb6370092
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -203,7 +213,7 @@ entries:
     version: 0.0.0-20201116T083123
   - apiVersion: v2
     appVersion: 921e7f4082a48bc5a0f66b66d949da72cc344ce9
-    created: "2021-03-07T15:53:21.8013117Z"
+    created: "2021-03-07T16:12:22.704432292Z"
     digest: c70faaaa0074110a54aa450e4106f568ca99b21ee3e69717c7853c87e67a287f
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -213,7 +223,7 @@ entries:
     version: 0.0.0-20201108T071955
   - apiVersion: v2
     appVersion: 5ec7c51dd9cc74b9c269926ddaa126eb088ee583
-    created: "2021-03-07T15:53:21.800482597Z"
+    created: "2021-03-07T16:12:22.703553379Z"
     digest: a8a82ab962f9aa1b8cf4c72065e50092ab646310eb18c13210cf130b53ebe005
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -223,7 +233,7 @@ entries:
     version: 0.0.0-20201107T143454
   - apiVersion: v2
     appVersion: 48aaaddf97c97015e515becf6307fd760b08ba98
-    created: "2021-03-07T15:53:21.799533395Z"
+    created: "2021-03-07T16:12:22.702645565Z"
     digest: f30e014d51f611ca110e95ea894ef55038b4d028f29c366b36889ee4affbf8f9
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -233,7 +243,7 @@ entries:
     version: 0.0.0-20201027T211032
   - apiVersion: v2
     appVersion: bac4eb8d7dde291b235125e5ff09fb234775177b
-    created: "2021-03-07T15:53:21.798743792Z"
+    created: "2021-03-07T16:12:22.701851554Z"
     digest: 6baebede0310216fe112ef3fe3a94ea1918cc6042e8debe7a9351a226d5e1eb4
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -243,7 +253,7 @@ entries:
     version: 0.0.0-20200915T191525
   - apiVersion: v2
     appVersion: 2d12efd4ae1982e7902ba23619573a0aea90e4da
-    created: "2021-03-07T15:53:21.79797069Z"
+    created: "2021-03-07T16:12:22.701046242Z"
     digest: 9a6850693a47b6195aae8e36ab9dd6af8d7f3c8e5ee86e5019083850bb25244b
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -253,7 +263,7 @@ entries:
     version: 0.0.0-20200912T170020
   - apiVersion: v2
     appVersion: 4449fe346d2b263872ce42c554c054e40c04caa0
-    created: "2021-03-07T15:53:21.797234788Z"
+    created: "2021-03-07T16:12:22.700349731Z"
     digest: 735c90947e3581e00b41929bed548e1038dc171e01f9f7e71e4c2cd65d58880b
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -263,7 +273,7 @@ entries:
     version: 0.0.0-20200910T100633
   - apiVersion: v2
     appVersion: dd1749839748cac0ffe818ee3d9f6c3e5801595e
-    created: "2021-03-07T15:53:21.796499286Z"
+    created: "2021-03-07T16:12:22.699645821Z"
     digest: 74e73565285427979af56e5062d563eb9079ebcbfa4e61ec0659417fa5668303
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -273,7 +283,7 @@ entries:
     version: 0.0.0-20200829T170519
   - apiVersion: v2
     appVersion: 303a65ed01c714ba7e0fe5b7aabecc519759d1c2
-    created: "2021-03-07T15:53:21.795798984Z"
+    created: "2021-03-07T16:12:22.69891481Z"
     digest: 7341cd473620916dc0da5d1dba70b460e0169a735a4fbdf63e87f1edc8807f81
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -283,7 +293,7 @@ entries:
     version: 0.0.0-20200829T091900
   - apiVersion: v2
     appVersion: eff973ac45de9a3d0f9f1fad71689e89b8ad03a9
-    created: "2021-03-07T15:53:21.795048482Z"
+    created: "2021-03-07T16:12:22.698183999Z"
     digest: 6d19821e42ad502fcd466be0297d2d30503a756dfda72803df35ab796ea05d72
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-deployment-minio
@@ -291,4 +301,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-deployment-minio/cwm-worker-deployment-minio-0.0.0-20200829T075405.tgz
     version: 0.0.0-20200829T075405
-generated: "2021-03-07T15:53:21.794042879Z"
+generated: "2021-03-07T16:12:22.696969081Z"
