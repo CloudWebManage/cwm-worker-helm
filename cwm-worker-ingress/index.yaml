@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   cwm-worker-ingress:
   - apiVersion: v2
+    appVersion: c9e045f1decf037f16022fefcff99477cd4ec958
+    created: "2022-05-30T13:59:44.049694427Z"
+    digest: 713738c7eb2d58f2765ae17537097b16d9ab41e2afa003ef132de90e4ed0ef9f
+    icon: https://go.cloudwm.com/images/logo.png
+    name: cwm-worker-ingress
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-ingress/cwm-worker-ingress-0.0.0-20220530T135943.tgz
+    version: 0.0.0-20220530T135943
+  - apiVersion: v2
     appVersion: 756fb5766ed97ad5421f4a79c3ddfe739e0611a1
-    created: "2022-05-09T12:13:35.777022386Z"
+    created: "2022-05-30T13:59:44.049130722Z"
     digest: e7272d0d68ebe285de05f1fc0295f785adbb0eb68a1a421252eba148d98261cb
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -13,7 +23,7 @@ entries:
     version: 0.0.0-20220509T121335
   - apiVersion: v2
     appVersion: bcb67bef8480069cc62bb94031927e246f9e8d89
-    created: "2022-05-09T12:13:35.775819355Z"
+    created: "2022-05-30T13:59:44.048503217Z"
     digest: ed93ccbcf823c5e311eaa6870fc21d9b5ce5a9664553f072570319dfd0ce7790
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -23,7 +33,7 @@ entries:
     version: 0.0.0-20220428T124322
   - apiVersion: v2
     appVersion: 0f96733dadb7d7dbef4ea3e97350e90e21a4b9c1
-    created: "2022-05-09T12:13:35.774295316Z"
+    created: "2022-05-30T13:59:44.047971012Z"
     digest: 0a922f46346d12d3bae3590a87ca7e6a9ee455fea33db3867ef6532f5ea2e2ec
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -33,7 +43,7 @@ entries:
     version: 0.0.0-20220118T085215
   - apiVersion: v2
     appVersion: 9f8a1c5871e5c75f351ebbe85b576dcba62a56ef
-    created: "2022-05-09T12:13:35.773455895Z"
+    created: "2022-05-30T13:59:44.047353007Z"
     digest: 02ec9c6ec98afdb68a3908c551afc297b4e06eff9a975b58f261225f29028ccc
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -43,7 +53,7 @@ entries:
     version: 0.0.0-20211009T074442
   - apiVersion: v2
     appVersion: 5e1be894cc0db0fc43ba191ef4109032921bd69f
-    created: "2022-05-09T12:13:35.772665275Z"
+    created: "2022-05-30T13:59:44.0465779Z"
     digest: 870fb8258a3a0c0113972a3abee1b9488ce7bc0108b430c20c20db8ecef80e22
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -53,7 +63,7 @@ entries:
     version: 0.0.0-20211003T103617
   - apiVersion: v2
     appVersion: d47f310bdee4d4f92e229973e8002f4853bf1509
-    created: "2022-05-09T12:13:35.771871554Z"
+    created: "2022-05-30T13:59:44.045833793Z"
     digest: f99da0461ca15eeef330612f221bed21f63aa59c2cdb6a297eeaa6a77f65836e
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -63,7 +73,7 @@ entries:
     version: 0.0.0-20210930T082336
   - apiVersion: v2
     appVersion: 9667b81b97a460d8f468f89612852bd9b6f6fde2
-    created: "2022-05-09T12:13:35.771089835Z"
+    created: "2022-05-30T13:59:44.043765975Z"
     digest: ca451fc925aec42a953c6ea50d6ef759d37c431c80da2d202e58a076e79eebf3
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -73,7 +83,7 @@ entries:
     version: 0.0.0-20210831T131321
   - apiVersion: v2
     appVersion: 8eac8d926fdf95dd74115c3cdba6a3a653837ee2
-    created: "2022-05-09T12:13:35.770488019Z"
+    created: "2022-05-30T13:59:44.043292971Z"
     digest: 7aab4f62278d54558ab55e42676f1bf42cd9751bf4d20bef782530caf4592565
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -83,7 +93,7 @@ entries:
     version: 0.0.0-20210429T164742
   - apiVersion: v2
     appVersion: e73cf80b69367eff764dfdb8dc13b12713485452
-    created: "2022-05-09T12:13:35.769890404Z"
+    created: "2022-05-30T13:59:44.042842867Z"
     digest: edbeb8ed166529d59e20078cc5c21a6ed34638fc1183417341963bc11c706108
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -93,7 +103,7 @@ entries:
     version: 0.0.0-20210420T063247
   - apiVersion: v2
     appVersion: 4d5fe0641684a947a68574d6fc16dc195b6bf9f9
-    created: "2022-05-09T12:13:35.769209687Z"
+    created: "2022-05-30T13:59:44.042276262Z"
     digest: d39fce4ccc865a6b529b5e32c82225b300d5a54ab8301fb0d95b0f0c51f727fb
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -103,7 +113,7 @@ entries:
     version: 0.0.0-20210411T111442
   - apiVersion: v2
     appVersion: bb6c652002dc660e2f05dc5fcaa26ccdaaed5ad8
-    created: "2022-05-09T12:13:35.768634472Z"
+    created: "2022-05-30T13:59:44.040599947Z"
     digest: 62892509b45327168d10e7a87a57d3ef8f727a1cae0b21ea83ef916b13d72b06
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -113,7 +123,7 @@ entries:
     version: 0.0.0-20210309T065938
   - apiVersion: v2
     appVersion: 4e856167a418854d776aeb19e01042fd5c9fbd8f
-    created: "2022-05-09T12:13:35.768056357Z"
+    created: "2022-05-30T13:59:44.039577038Z"
     digest: 8081efbbae13ea003248b1c8787268e8ed096d6c052274649258f7eefa229591
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -123,7 +133,7 @@ entries:
     version: 0.0.0-20210308T080356
   - apiVersion: v2
     appVersion: 2943d1ffdc2c4f4203170f2097f4a3cd6645d224
-    created: "2022-05-09T12:13:35.767419041Z"
+    created: "2022-05-30T13:59:44.038873732Z"
     digest: d6ae7f22bcf0aba2064c13f5372291182e1c60ca4bd4fc2004808db40c1387e8
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -133,7 +143,7 @@ entries:
     version: 0.0.0-20210305T081858
   - apiVersion: v2
     appVersion: 0daadf5fc1299fc5f8cdf220fd79b5511bd0932a
-    created: "2022-05-09T12:13:35.766839926Z"
+    created: "2022-05-30T13:59:44.037691522Z"
     digest: 57a4df691fbb31669d426a87bbad3d350d690d1c908801e0be57fcd67c9afffb
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -143,7 +153,7 @@ entries:
     version: 0.0.0-20210304T124114
   - apiVersion: v2
     appVersion: 10d900950b33d5b3e39345187a569a24daa8c8f7
-    created: "2022-05-09T12:13:35.76619431Z"
+    created: "2022-05-30T13:59:44.037232518Z"
     digest: 2e68c9c8271cf05853281009910200fdd3c61ed5e65e21ec8c2fa3a3f32fc79c
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -153,7 +163,7 @@ entries:
     version: 0.0.0-20210304T123838
   - apiVersion: v2
     appVersion: 1efd0d1cb4d96480bbd3f61cea3ba581ac9c5e39
-    created: "2022-05-09T12:13:35.765510692Z"
+    created: "2022-05-30T13:59:44.036752914Z"
     digest: b67a69cb282351dbff95645b4d0a2fc58a01b14f66006b4108bbea5021d7cbb8
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -163,7 +173,7 @@ entries:
     version: 0.0.0-20210226T153117
   - apiVersion: v2
     appVersion: e88c471d55c689b8ee94d7b562f7f3cdf4f7b460
-    created: "2022-05-09T12:13:35.76503318Z"
+    created: "2022-05-30T13:59:44.036250809Z"
     digest: 0bc0456c73131b0b895272ff4c3209e579ba2628b15a6a0e5499728e0d88cf98
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -173,7 +183,7 @@ entries:
     version: 0.0.0-20210211T094410
   - apiVersion: v2
     appVersion: f5af3dd505e4a9ee45578ea93d6d32436263ea54
-    created: "2022-05-09T12:13:35.764569968Z"
+    created: "2022-05-30T13:59:44.035854706Z"
     digest: 83e9acb355e7ecb5a02636b9a0b4f926f080d3c272613f152c144e279b1ca705
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -183,7 +193,7 @@ entries:
     version: 0.0.0-20210209T182905
   - apiVersion: v2
     appVersion: 6a3c50c7d05dbf211df9d61b904a8bc630df1b6a
-    created: "2022-05-09T12:13:35.764079356Z"
+    created: "2022-05-30T13:59:44.035434902Z"
     digest: bb9b9ee95fdcce6103e413db28c5110993b440da540a35b7fc7bebfad1d5c9d1
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -193,7 +203,7 @@ entries:
     version: 0.0.0-20210119T195132
   - apiVersion: v2
     appVersion: d229d991ceeb51be112a1751a49a0ac7841c2b50
-    created: "2022-05-09T12:13:35.760813972Z"
+    created: "2022-05-30T13:59:44.035077499Z"
     digest: 0dca78bf20970b3bc44ddb93f5c34febc1be5eb07ce15e140b3742c0fbefd230
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -203,7 +213,7 @@ entries:
     version: 0.0.0-20210107T133648
   - apiVersion: v2
     appVersion: b2fad0942dd6cd8be2325d430dade0c09c9866b7
-    created: "2022-05-09T12:13:35.75993295Z"
+    created: "2022-05-30T13:59:44.034774196Z"
     digest: 0d73681fd54eaa10a84decb4107dfa0ff86c7e1730b5c57c00830b2aad3cde4e
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -213,7 +223,7 @@ entries:
     version: 0.0.0-20200919T154102
   - apiVersion: v2
     appVersion: eba50c37770b0aa28bb92f26d07f1a6f22ff7dac
-    created: "2022-05-09T12:13:35.759078028Z"
+    created: "2022-05-30T13:59:44.034418793Z"
     digest: 9567ea35197e5225755ccbcbbb10c34de1db73756e5a91071ad76d5dfdff6de2
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -223,7 +233,7 @@ entries:
     version: 0.0.0-20200907T111346
   - apiVersion: v2
     appVersion: 485788859ee96659eb0921f8a47f1c14081503ed
-    created: "2022-05-09T12:13:35.753850294Z"
+    created: "2022-05-30T13:59:44.034005089Z"
     digest: d4f8067b0f704ee5056fa3fe10782edbc0cce1a4c64136a9edaf8e8c99db9959
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -233,7 +243,7 @@ entries:
     version: 0.0.0-20200828T093358
   - apiVersion: v2
     appVersion: b038fb2810051ed7de872acbc016360011ba94cc
-    created: "2022-05-09T12:13:35.753477085Z"
+    created: "2022-05-30T13:59:44.033708687Z"
     digest: d7d935cda7319222aae3c5a9b77bd586a14e55e54118b1ff21a14f591ce71b49
     icon: https://go.cloudwm.com/images/logo.png
     name: cwm-worker-ingress
@@ -241,4 +251,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/CloudWebManage/cwm-worker-helm/master/cwm-worker-ingress/cwm-worker-ingress-0.0.0-20200828T072957.tgz
     version: 0.0.0-20200828T072957
-generated: "2022-05-09T12:13:35.753024473Z"
+generated: "2022-05-30T13:59:44.033210382Z"
